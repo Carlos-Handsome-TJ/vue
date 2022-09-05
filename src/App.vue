@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <HeaderComponent/>
+<!--    <HeaderComponent/>-->
+    <router-view />
   </div>
 </template>
 
 <script>
-import HeaderComponent from "@/components/header/index"
+// import HeaderComponent from "@/components/header/index"
 
 export default {
   name: 'App',
-  components: {
-    HeaderComponent
-  }
+  // components: {
+  //   HeaderComponent
+  // }
 }
 </script>
 
